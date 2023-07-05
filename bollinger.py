@@ -1,7 +1,6 @@
 import pandas as pd
 import numpy as np
 from ta.volatility import BollingerBands
-import get_data
 
 # Generate random data for demonstration
 np.random.seed(42)
@@ -24,4 +23,4 @@ df['bb_lowerband_value'] = df.apply(lambda row: row['close'] if row.name is None
 df['bb_upperband_value'] = df.apply(lambda row: row['close'] if row.name is None else row.iloc[3], axis=1)
 
 # Print the DataFrame with Bollinger Bands and the specific price values
-print(df)
+#print(df)
