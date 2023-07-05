@@ -3,13 +3,12 @@ from get_data import get_prices
 from bollinger import df
 from get_data import data
 
- 
 class MyTest(unittest.TestCase):
     def test_get_prices(self):
         # Unit test for the get_prices function
         get_prices()
         self.assertGreater(len(data), 0)
-        
+
     def test_bollinger_calculation(self):
         # Unit test for the Bollinger Bands calculation
         self.assertEqual(len(df), 100)
@@ -21,4 +20,3 @@ class MyTest(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-
