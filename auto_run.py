@@ -2,8 +2,6 @@ import schedule
 import time
 import main
 
-
-
 # Schedule updates daily at midnight
 schedule.every().day.at('00:00').do(main)
 
