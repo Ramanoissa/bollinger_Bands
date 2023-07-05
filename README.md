@@ -25,7 +25,7 @@ The Bollinger Bands Analysis Tool is a Python-based project that helps analyze f
 
 For any inquiries or support, please contact:
 - Rmana Issa
-- [Project Repository](https://github.com/your-username/project-repo)
+- [Project Repository]([https://github.com/your-username/project-repo](https://github.com/Ramanoissa/bollinger_Bands.git))
 
 ## License
 
